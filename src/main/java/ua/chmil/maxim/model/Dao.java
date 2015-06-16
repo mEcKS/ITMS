@@ -14,9 +14,9 @@ import java.util.List;
  */
 public class Dao {
 
-    private static final String DB_CONNECTION = "jdbc:jtds:sqlserver://192.168.120.4:1433/itms2";
-    private static final String DB_USER = "ITMS";
-    private static final String DB_PASSWORD = "8uSTn7zgU92H";
+    private static final String DB_CONNECTION = "jdbc:jtds:sqlserver://localhost:1433/itms";
+    private static final String DB_USER = "";
+    private static final String DB_PASSWORD = "";
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         DriverManager.registerDriver(new net.sourceforge.jtds.jdbc.Driver());
